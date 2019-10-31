@@ -1,0 +1,82 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/variants/standard"
+  },
+  {
+    "Sourcefile": "/Users/syaz/git/buino_climber/build/sketch/buino_climber.ino.cpp",
+    "Include": "SPI.h",
+    "Includepath": "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SPI/src"
+  },
+  {
+    "Sourcefile": "/Users/syaz/git/buino_climber/build/sketch/buino_climber.ino.cpp",
+    "Include": "Gamebuino.h",
+    "Includepath": "/Users/syaz/Documents/Arduino/libraries/Gamebuino_Classic"
+  },
+  {
+    "Sourcefile": "/Users/syaz/git/buino_climber/build/sketch/buino_climber.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SPI/src/SPI.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/syaz/Documents/Arduino/libraries/Gamebuino_Classic/Gamebuino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/syaz/Documents/Arduino/libraries/Gamebuino_Classic/utility/Backlight.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/syaz/Documents/Arduino/libraries/Gamebuino_Classic/utility/Battery.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/syaz/Documents/Arduino/libraries/Gamebuino_Classic/utility/Buttons.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/syaz/Documents/Arduino/libraries/Gamebuino_Classic/utility/Display.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/syaz/Documents/Arduino/libraries/Gamebuino_Classic/utility/Sound.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/syaz/Documents/Arduino/libraries/Gamebuino_Classic/utility/font3x3.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/syaz/Documents/Arduino/libraries/Gamebuino_Classic/utility/font3x5.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/syaz/Documents/Arduino/libraries/Gamebuino_Classic/utility/font5x7.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/syaz/Documents/Arduino/libraries/Gamebuino_Classic/utility/settings.c",
+    "Include": "",
+    "Includepath": null
+  }
+]
