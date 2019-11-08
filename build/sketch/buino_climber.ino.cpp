@@ -24,8 +24,8 @@ void loop() {
       int x = offset_left + (i * 9) + 3 * i;
       int y = offset_top;
       gb.display.drawBitmap(x, y, window_1);
-      gb.display.drawFastVLine(x - 1, 0, 84);
-      gb.display.drawFastVLine(x + 9, 0, 84);
+      gb.display.drawFastVLine(x , 0, 84);
+      gb.display.drawFastVLine(x + 8, 0, 84);
     }
     gb.display.drawBitmap(44, 30, buino_up_0);
   }
