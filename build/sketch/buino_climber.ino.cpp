@@ -2,13 +2,14 @@
 #line 1 "/Users/syaz/git/buino_climber/buino_climber.ino"
 #include <SPI.h>
 #include <Gamebuino.h>
+#include "Bitmaps.h"
 Gamebuino gb;
 
-#line 5 "/Users/syaz/git/buino_climber/buino_climber.ino"
+#line 6 "/Users/syaz/git/buino_climber/buino_climber.ino"
 void setup();
-#line 10 "/Users/syaz/git/buino_climber/buino_climber.ino"
+#line 11 "/Users/syaz/git/buino_climber/buino_climber.ino"
 void loop();
-#line 5 "/Users/syaz/git/buino_climber/buino_climber.ino"
+#line 6 "/Users/syaz/git/buino_climber/buino_climber.ino"
 void setup() {
   gb.begin();
   gb.titleScreen(F("Buino Climber"));
@@ -16,7 +17,16 @@ void setup() {
 
 void loop() {
   if (gb.update()) {
-    gb.display.println(F("Buino Climber"));
+    int offset = 10;
+    int margin = 3;
+    for (size_t i = 0; i < 5; i++) {
+      int x = offset + (i * 10) + 3 * i;
+      int y = offset;
+      gb.display.drawBitmap(x, y, window_1);
+      gb.display.drawFastVLine(x + 12, 0, 84);
+      gb.display.drawFastVLine(x + 10, 0, 84);
+    }
+    gb.display.drawBitmap(30, 30, buino_up_0);
   }
 }
 

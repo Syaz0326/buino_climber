@@ -19,4 +19,5 @@
  /Users/syaz/Documents/Arduino/libraries/Gamebuino_Classic/utility/Display.h \
  /Users/syaz/Documents/Arduino/libraries/Gamebuino_Classic/utility/Buttons.h \
  /Users/syaz/Documents/Arduino/libraries/Gamebuino_Classic/utility/Battery.h \
- /Users/syaz/Documents/Arduino/libraries/Gamebuino_Classic/utility/Sound.h
+ /Users/syaz/Documents/Arduino/libraries/Gamebuino_Classic/utility/Sound.h \
+ /Users/syaz/git/buino_climber/build/sketch/Bitmaps.h
