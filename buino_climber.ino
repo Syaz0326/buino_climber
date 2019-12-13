@@ -1,7 +1,8 @@
 #include <SPI.h>
 #include <Gamebuino.h>
-#include "Bitmaps.h"
 Gamebuino gb;
+#include <string.h>
+#include "Bitmaps.h"
 
 void setup() {
   gb.begin();

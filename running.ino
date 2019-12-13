@@ -1,14 +1,17 @@
 void initScreen() {
+  int high_score = 0, score = 0;
+
+  drawScore(high_score, score);
   drawBackground();
   running();
 }
 
 void drawBackground() {
   // windows offset & margin
-  int offset_left = 20;
+  int offset_left = 22;
   int offset_bottom = 4;
   int margin_x = 3;
-  int margin_y = 1;
+  int margin_y = 2;
   int window_height = 6;
   int window_width = 9;
 
@@ -25,6 +28,24 @@ void drawBackground() {
     }
     gb.display.drawBitmap(x, y, window_3);  // 9x6の窓画像
   }
+}
+
+void drawScore(int high_score, int score) {
+  gb.display.cursorX = 1;
+  gb.display.cursorY = 1;
+  gb.display.println(F("High"));
+  gb.display.cursorX = 1;
+  gb.display.println(F("Score"));
+
+  gb.display.cursorX = 1;
+  // gb.display.println(zeroFill(high_score, 5));
+
+  gb.display.cursorX = 1;
+  gb.display.cursorY = 24;
+  gb.display.println(F("Score"));
+
+  gb.display.cursorX = 1;
+  // gb.display.println(zeroFill(score, 5));
 }
 
 void running() {
