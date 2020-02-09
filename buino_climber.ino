@@ -11,7 +11,7 @@ void setup() {
 
 void loop() {
   if (gb.update()) {
-    // gb.display.drawBitmap(44, 30, buino_up_0);
+    gb.display.drawBitmap(44, 30, buino_up_0);
     initScreen();
   }
 }
